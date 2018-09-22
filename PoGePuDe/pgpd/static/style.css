@@ -1,0 +1,197 @@
+<style>
+/* form */
+body{
+    background:#efefef;
+}
+.form-body{
+    background:#fff;
+    padding:20px;
+}
+.login-form{
+    background:rgba(255,255,255,0.8);
+	padding:20px;
+	border-top:3px solid#3e4043;
+}
+.innter-form{
+	padding-top:20px;
+}
+.final-login li{
+	width:50%;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs>li{
+	color:#222 !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #fff;
+    background-color: #d14d42;
+    border: none !important;
+    border-bottom-color: transparent;
+	border-radius:none !important;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.428571429;
+    border: none !important;
+    border-radius:none !important;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+.social-login{
+	text-align:center;
+	font-size:12px;
+}
+.social-login p{
+	margin:15px 0;
+}
+.social-login ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.social-login ul li{
+	width:33%;
+	float:left;
+    clear:fix;
+}
+.social-login ul li a{
+	font-size:13px;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 0;
+	display:block;
+}
+.social-login ul li:nth-child(1) a{
+	background:#3b5998;
+}
+.social-login ul li:nth-child(2) a{
+	background:#e74c3d;
+}
+.social-login ul li:nth-child(3) a{
+	background:#3698d9;
+}
+.sa-innate-form input[type=text], input[type=password], input[type=file], textarea, select, email{
+    font-size:13px;
+	padding:10px;
+	border:1px solid#ccc;
+	outline:none;
+	width:100%;
+	margin:8px 0;
+	
+}
+.sa-innate-form input[type=submit]{
+    border:1px solid#e64b3b;
+	background:#e64b3b;
+	color:#fff;
+	padding:10px 25px;
+	font-size:14px;
+	margin-top:5px;
+	}
+	.sa-innate-form input[type=submit]:hover{
+	border:1px solid#db3b2b;
+	background:#db3b2b;
+	color:#fff;
+	}
+	
+	.sa-innate-form button{
+	border:1px solid#e64b3b;
+	background:#e64b3b;
+	color:#fff;
+	padding:10px 25px;
+	font-size:14px;
+	margin-top:5px;
+	}
+	.sa-innate-form button:hover{
+	border:1px solid#db3b2b;
+	background:#db3b2b;
+	color:#fff;
+	}
+    .sa-innate-form p{
+        font-size:13px;
+        padding-top:10px;
+    }
+    
+    /*--Button----*/
+   
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+
+ 
+
+/*-----------ON off Switch-------*/
+.toggle {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 62px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #707070;
+  transition: background-color ease 0.3s;
+}
+
+.toggle:before {
+  content: "on off";
+  display: block;
+  position: absolute;
+  z-index: 2;
+  width: 28px;
+  height: 28px;
+  background: #fff;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  font: 10px/28px Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-indent: -22px;
+  word-spacing: 37px;
+  color: #fff;
+  text-shadow: -1px -1px rgba(0,0,0,0.15);
+  white-space: nowrap;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  transition: all cubic-bezier(0.3, 1.5, 0.7, 1) 0.3s;
+}
+
+.toggle:checked {
+  background-color: #4CD964;
+}
+
+.toggle:checked:before {
+  left: 32px;
+}
+/*------------END switch-------- */
+
+
+ 
+    </style>
